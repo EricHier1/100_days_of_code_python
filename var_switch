@@ -6,6 +6,8 @@ b = input("b: ")
 ####################################
 #Write your code below this line 👇
 
+#This is like using a 3rd cup to change the coffee and the tea into the other cup. Thornny is helpful for steping through the code.
+
 c = a
 a = b
 b = c
