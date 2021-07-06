@@ -1,4 +1,4 @@
-bill = input("How much is the bill?")
+bill = input("How much is the bill? $")
 tip = input("What is the percent of the tip (5, 10, 15, 20, ect.)?")
 tip_percent = float(tip) / 100
 persons = input("How many people are splitting the bill?")
