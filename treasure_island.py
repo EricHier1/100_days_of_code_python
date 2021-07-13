@@ -23,12 +23,12 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Eric's Treasure Island.")
 print("Your mission is to find the treasure.")
 
-choice_1 = input("You are walking towards the shore of the mainland and come to a fork in the road. " + "Do you go 'left' or 'right'?\n ")
+choice_1 = input("You are walking towards the shore of the mainland and come to a fork in the road. " + "Do you go 'left' or 'right'?\n")
 
 if choice_1 == "left" or choice_1 == "Left":
-  choice_2 = input("You arrive in town and walk to the harbor. " + "Do you 'wait' or 'swim' to the island across the water? \n")
+  choice_2 = input("You arrive in town and walk to the harbor. " + "Do you 'wait' or 'swim' to the island across the water?\n")
   if choice_2 == "wait" or choice_2 == "Wait":
-    choice_3 = input("You wait for a boat and sail across the water." + "You see a 'red', 'blue', and 'green' door, which one do you choose.\n ")
+    choice_3 = input("You wait for a boat and sail across the water." + "You see a 'red', 'blue', and 'green' door, which one do you choose.\n")
     if choice_3 == "red" or choice_3 == "Red" or choice_3 == "RED":
      print("You burst into flames as the dragon breathes fire though the now open door, GAME OVER.")
     elif choice_3 == "green" or choice_3 == "Green":
